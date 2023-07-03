@@ -1,0 +1,32 @@
+
+ .carousel-inner{
+    padding: 20px;
+    width: 600px;
+    height: 400px;  
+    object-fit: contain;  
+}
+.carousel {
+  
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    background-color: #c7777a;
+    
+}
+h1{
+    color: #659435;
+    font-family: sans-serif;
+    margin-top: 10px;
+    letter-spacing: 2px ;
+    text-shadow: 2px 2px grey;
+}
+h5{
+    color: black;
+}
+h3{
+    color: grey;
+}
+p{
+    font-size:.8rem!important;
+    color: black;
+}

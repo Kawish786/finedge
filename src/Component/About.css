@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 33rem;
+    background: linear-gradient(45deg, transparent 49%, #8381a3 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #8381a3 49% 51%, transparent 51%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
+        
+}
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    background-color: #c7777a;
+    
+}
+h2{
+    color: #ddadaf;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+.h1{
+    color: black;
+}
+.p{
+    color: whitesmoke;
+    padding: 10px;
+    margin: 0;
+}

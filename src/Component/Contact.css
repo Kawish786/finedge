@@ -1,0 +1,51 @@
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background: linear-gradient(45deg, transparent 49%, #8381a3 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #8381a3 49% 51%, transparent 51%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
+    
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    width: 30rem;
+    /* box-shadow: 5px 10px rgb(35, 37, 36); */
+    opacity: 1;
+    text-align: center;
+   background-color: #c7777a;;
+   
+}
+#name,#email,#message{
+    
+    margin: 10px;
+    margin-left: 20px;
+    max-width: 20rem;
+    align-self: center;
+}
+textarea{
+    resize: none;
+    
+}
+label{
+    color: whitesmoke;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+h3{
+    margin-top: 5px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    margin-bottom: 20px;
+}
