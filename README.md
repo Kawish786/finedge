@@ -1,3 +1,8 @@
+# Making of the project
+
+First I started with Astro framework and add react in astro, make components, however, I am facing challenges in routing pages and providing CSS to all the components,cause this the first time I am working with Astro Framework so I get so confused working with Astro but I get the knowledge about the astro and it takes me only 1 week to understand the astro as it is somehow similar with react, then I starded my whole project with React js and I have completed my project without any difficuly.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
