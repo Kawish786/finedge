@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import '../Component/Contact.css'
 
-function Contact() {
+function Contact(props) {
   const [inputValues, setInputValues] = useState({
     name: '',
     email: '',
@@ -19,7 +19,7 @@ const handleSubmit=()=>{
         if (name && email && message)
    {
   
-        alert('Feedback Submitted')
+        props.showAlert("Feedback Submitted Successfully","success")
         navigation('/')
   }
   else{
@@ -44,7 +44,7 @@ const handleSubmit=()=>{
             <textarea  name='message' id='message' className="form-control " onChange={handleInputChange} value={inputValues.message} placeholder='Message' />
             <br/>  {errorMessage && <p style={{color:'white',textAlign:'center'}}>{errorMessage}</p>}
             <div className="text-center">
-                <button type="submit" className="btn btn-outline-dark" onClick={handleSubmit}>Submit</button>
+                <button type="submit" className="btn btn-outline-dark" onClick={handleSubmit} data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Submit Feedback">Submit</button>
             </div>
         </div>
   
